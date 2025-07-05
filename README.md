@@ -35,26 +35,30 @@ If you want to try running this project on your computer:
 ###   Clone the repository
 
 bash
+
 git clone https://github.com/your-username/your-repo-name.git
 
 ### Go to the folder
 
 bash
+
 cd your-repo-name
 
 ### Install the required packages
 
 bash
+
 npm install
 
 ### Start the website
 
 bash
+
 npm start
 
 #### It will open in your browser at http://localhost:3000
 
 
-##🙌 Thank You
+## 🙌 Thank You
 
 ### Thanks for checking out my project! If you’re also learning React and want to connect, feel free to reach out.
