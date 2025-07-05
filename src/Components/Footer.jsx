@@ -28,8 +28,8 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-semibold mb-3">Contact Us</h3>
           <p className="text-sm">Email: support@smarttech.com</p>
-          <p className="text-sm">Phone: +123 456 7890</p>
-          <p className="text-sm">Address: 123 Tech Street, Cityville</p>
+          <p className="text-sm">Phone: +977 9702004193</p>
+          <p className="text-sm">Address: Itahari-17, Sunsari</p>
         </div>
       </div>
 

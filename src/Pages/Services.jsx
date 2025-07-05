@@ -19,7 +19,7 @@ const services = [
   {
     title: 'Digital Marketing',
     description: 'We help you reach your audience with SEO, social media marketing, and analytics.',
-    icon: 'https://img.icons8.com/ios-filled/100/marketing.png',
+    icon: 'https://img.icons8.com/color/2x/search',
   },
 ];
 

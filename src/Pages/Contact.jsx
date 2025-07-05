@@ -92,9 +92,9 @@ const Contact = () => {
 
           <div className="flex flex-col justify-center bg-blue-600 text-white p-6 rounded-lg shadow">
             <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
-            <p className="mb-2">📧 Email: support@smarttech.com</p>
-            <p className="mb-2">📞 Phone: +123 456 7890</p>
-            <p className="mb-2">📍 Address: 123 Tech Street, Cityville</p>
+            <p className="mb-2"> Email: support@smarttech.com</p>
+            <p className="mb-2"> Phone: +977 9702004193</p>
+            <p className="mb-2"> Address: Itahari-17, Sunsari</p>
             <p className="text-sm mt-6 text-blue-100">
               We respond to all inquiries within 24 hours during business days.
             </p>
