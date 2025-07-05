@@ -4,7 +4,7 @@ This is a simple and responsive multi-page website I built using React JS and Ta
 
 This is one of my learning projects, and I created it to improve my skills in React, routing, and component-based development.
 
-##🚀 What I’ve Made so far
+## 🚀 What I’ve Made so far
 
 ✅ A responsive Navbar that works on all devices
 
