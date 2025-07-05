@@ -1,12 +1,60 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple and responsive multi-page website I built using React JS and Tailwind CSS. It has a navigation bar and several pages like Home, About, Services, Products, and Contact.
 
-Currently, two official plugins are available:
+This is one of my learning projects, and I created it to improve my skills in React, routing, and component-based development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##🚀 What I’ve Made so far
 
-## Expanding the ESLint configuration
+✅ A responsive Navbar that works on all devices
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Pages like Home, About, Services, Products, and Contact
+
+✅ Integrated EmailJS for Contact form
+
+✅ A clean layout using Tailwind CSS
+
+✅ Reusable components like Navbar and Footer
+
+✅ Routing between pages using React Router
+
+## 🛠️ Tools and Technologies
+
+React JS
+
+Tailwind CSS
+
+React Router DOM
+
+HTML & JavaScript
+
+## 📥 How to Use / Run the Project
+
+If you want to try running this project on your computer:
+
+###   Clone the repository
+
+bash
+git clone https://github.com/your-username/your-repo-name.git
+
+### Go to the folder
+
+bash
+cd your-repo-name
+
+### Install the required packages
+
+bash
+npm install
+
+### Start the website
+
+bash
+npm start
+
+#### It will open in your browser at http://localhost:3000
+
+
+##🙌 Thank You
+
+### Thanks for checking out my project! If you’re also learning React and want to connect, feel free to reach out.
