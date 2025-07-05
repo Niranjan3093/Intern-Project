@@ -42,7 +42,7 @@ git clone https://github.com/your-username/your-repo-name.git
 
 bash
 
-cd your-repo-name
+cd frontend
 
 ### Install the required packages
 
