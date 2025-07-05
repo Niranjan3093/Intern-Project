@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -12,23 +13,38 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // You can replace this with API integration
-    alert('Message submitted!\n' + JSON.stringify(formData, null, 2));
-    setFormData({ name: '', email: '', message: '' });
+
+    const serviceID = 'service_plrijyp';
+    const templateID = 'template_9kf1hz9';
+    const publicKey = 'vO4mDMGveBvXbKFsH';
+
+  const templateParams = {
+  from_name: formData.name,
+  email_id: formData.email,
+  message: formData.message,
+};
+
+
+    emailjs.send(serviceID, templateID, templateParams, publicKey)
+      .then(() => {
+        alert('Message sent successfully!');
+        setFormData({ name: '', email: '', message: '' });
+      })
+      .catch((error) => {
+        alert('Failed to send message. Please try again.');
+        console.error('EmailJS error:', error);
+      });
   };
 
   return (
     <div className="min-h-screen bg-gray-50 px-6 py-25">
       <div className="max-w-4xl mx-auto">
-        {/* Header */}
         <h1 className="text-4xl font-bold text-center text-blue-700 mb-4">Contact Us</h1>
         <p className="text-center text-gray-600 mb-10">
           We'd love to hear from you. Please fill out the form below and we'll get back to you as soon as possible.
         </p>
 
-        {/* Contact Form & Info */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Form */}
           <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow">
             <div className="mb-4">
               <label className="block text-sm font-medium text-gray-700">Name</label>
@@ -74,7 +90,6 @@ const Contact = () => {
             </button>
           </form>
 
-          {/* Contact Info */}
           <div className="flex flex-col justify-center bg-blue-600 text-white p-6 rounded-lg shadow">
             <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
             <p className="mb-2">📧 Email: support@smarttech.com</p>
